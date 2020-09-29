@@ -1,0 +1,130 @@
+/* Header Font */
+@import url("https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i");
+
+html, body {
+    position: relative;
+    background-image: url(../images/lighter.jpeg);
+    background-size: cover;
+    margin-bottom: auto;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+    height: 100vh;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* top navbar */
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.61);
+    border: solid 2px rgb(78, 59, 59);
+    display: flex;
+}
+
+/* chef hat navbar */
+.navbar-brand {
+    height: auto;
+    transform: rotate(25deg);
+    max-width: 400px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+/* main title */
+.display-2 {
+    font-family: 'Playfair Display', serif;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    color: #ffeadb;
+}
+
+/* saved recipes display */
+.card {
+    margin: 1%;
+    background-color: #637373;
+    color: white;
+    
+}
+
+/* saved recipes ancor/link  */
+.card-body a {
+    color: white;
+}
+
+/* email field */
+#form {
+    margin-bottom: 30px;
+    margin-top: auto;
+    padding-top: 30px;
+}
+
+/* email legend */
+.form-legend {
+    text-align: center;
+    color: #ffeadb;
+}
+
+/* trash icon */
+.trash-button {
+    padding-left: 0px;
+    color: white;
+}
+
+/* footer */
+#footer {
+    background-color: #ff9a76;
+    
+  
+    width: 100%;
+    clear: both;
+    height: 50px;
+
+}
+
+#footer p {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    font-size: 12px;
+    color: black;
+}
+
+#footer a {
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.card{ 
+    height: 430px;
+} 
+
+/* changes on small screens */
+@media only screen and (max-width: 700px) {
+    
+    .display-2 { 
+        text-align: center; 
+        font-size: 50px;
+    } 
+}
+
+@media only screen and (max-width: 400px) {
+    
+    .card{ 
+        height: 480px;
+    } 
+}

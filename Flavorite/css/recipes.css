@@ -1,0 +1,127 @@
+/* Header Font */
+@import url("https://fonts.googleapis.com/css?family=Chivo:300,700%7CPlayfair+Display:700i");
+
+html {
+    position: relative;
+}
+
+body {
+    background-image: url(../images/lighter.jpeg);
+    margin-bottom: 10%;
+}
+
+/* top navbar */
+.navbar {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.61);
+    border: solid 2px rgb(78, 59, 59);
+    display: flex;
+}
+
+/* chef hat navbar */
+.navbar-brand {
+    height: auto;
+    transform: rotate(25deg);
+    max-width: 400px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+/* main title */
+.display-2 {
+    font-family: 'Playfair Display', serif;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: #ffeadb;
+}
+
+/* page container */
+.container {
+    padding-top: 4%;
+    height: 100vh;
+    padding-bottom: auto;
+}
+
+/* left side bar main title */
+.pick-ingredients {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+/* left side bar container */
+.sidenav {
+    padding-top: 20px;
+    background-color: #637373;
+    height: 100%;
+    color: white;
+}
+
+.line hr {
+    border: 0;
+    clear:both;
+    display:block;             
+    background-color: #ffeadb;
+    height: 1px;
+}
+
+/* recipes display */
+.card {
+    background-color: #679B9B;
+    color: white;
+    margin-bottom: 5%;
+}
+
+/* heart icon on recipes cards */
+.heart-button {
+    padding-left: 0px;
+    color: white;
+}
+
+/* footer */
+#footer {
+    background-color: #FF9A76;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    clear: both;
+}
+
+#footer p {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    font-size: 12px;
+    color: black;
+}
+
+#footer a {
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/* changes on small screens */
+@media screen and (max-width: 700px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+
+    .row.content {
+        height: auto;
+    }
+
+    .display-2 { 
+        text-align: center; 
+        font-size: 50px;
+    } 
+}
